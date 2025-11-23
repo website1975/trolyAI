@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ViewMode, PhysicsTopic } from './types';
-import { ChatInterface } from './components/ChatInterface';
+import { ChatSession } from './components/ChatSession';
 import { ProblemSolver } from './components/ProblemSolver';
 import { QuizMode } from './components/QuizMode';
 import { TopicCard } from './components/TopicCard';
@@ -36,7 +36,7 @@ const App: React.FC = () => {
   const renderContent = () => {
     switch (view) {
       case ViewMode.CHAT:
-        return <ChatInterface />;
+        return <ChatSession />;
       case ViewMode.SOLVER:
         return <ProblemSolver />;
       case ViewMode.QUIZ:
