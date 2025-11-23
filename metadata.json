@@ -1,0 +1,7 @@
+{
+  "name": "PhysiMind AI",
+  "description": "Một trợ lý học tập Vật lý thông minh sử dụng AI để giải bài tập, giải thích lý thuyết và tạo bài kiểm tra trắc nghiệm.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
